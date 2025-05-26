@@ -708,7 +708,7 @@ mark, .mark {
     position: relative;
     padding: 120px 0 50px;
     z-index: 99;
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 .hero__wrapper .countdown__module {
@@ -2071,3 +2071,25 @@ mark, .mark {
 	background-color: #0056b3;
 	transform: scale(1.05);
 	}
+
+
+     .link-style {
+            font-size: 20px;
+            color: rgb(161, 160, 209);
+            text-decoration: none; /* Removes underline from links */
+            margin: 0 7px;
+        }
+
+
+    .more-info {
+            display: flex;
+            justify-content: center; /* Horizontally centers the content */
+            align-items: center;    /* Vertically centers the content */
+            height: 5vh;          /* Optionally set a height to center vertically within the viewport */
+        }
+
+
+    .separator {
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+        }
