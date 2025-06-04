@@ -706,20 +706,22 @@ mark, .mark {
 
 .hero__wrapper {
     position: relative;
-    padding: 120px 0 50px;
+    padding: 30px 0 50px;
     z-index: 99;
-    min-height: 70vh;
+    min-height: 100vh;
 }
 
 .hero__wrapper .countdown__module {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 20px auto;
+    padding: 10px;
 }
 
 @media (min-width: 769px) {
     .hero__wrapper .countdown__module {
         max-width: 800px;
-        margin: 80px auto;
+        margin: 20px auto;
+        padding: 10px;
     }
 }
 
@@ -2045,49 +2047,59 @@ mark, .mark {
 
 @media (min-width: 1200px) {
     .countdown__module span {
-        font-size: 90px;
+        font-size: 60px;
     }
 }
 
-
+   .already_reg {
+	text-align: center;
+	margin-top: 30px;
+    justify-content: center;
+	}
 
 	.start-quiz {
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 20px;
 	}
-	.btn-blue-theme {
-	display: inline-block;
-	padding: 5px 30px;
-	font-size: 18px;
-	font-weight: bold;
-	color: #fff;
-	background-color: #007bff;
-	border: none;
-	border-radius: 5px;
-	text-decoration: none;
-	transition: background-color 0.3s ease, transform 0.2s ease;
-	}
+    .btn-blue-theme {
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 18px;
+    /*font-weight: bold;
+*/	color: #fff;
+    background-color: #402ee6;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: none;
+    height: 45px;
+    }
 	.btn-blue-theme:hover {
 	background-color: #0056b3;
-	transform: scale(1.05);
+	transform: scale(1.1);
 	}
 
 
-     .link-style {
-            font-size: 20px;
-            color: rgb(161, 160, 209);
-            text-decoration: none; /* Removes underline from links */
-            margin: 0 7px;
-        }
+    .link-style {
+          font-size: 20px;
+          color: rgb(237, 237, 239);
+          text-decoration: none; /* Removes underline from links */
+          margin: 0 7px;
+       }
+    .link-style:hover {
+          color: #5a1ddf;
+          text-decoration: underline;
+       }
 
 
     .more-info {
-            display: flex;
-            justify-content: center; /* Horizontally centers the content */
-            align-items: center;    /* Vertically centers the content */
-            height: 5vh;          /* Optionally set a height to center vertically within the viewport */
-        }
-
+        display: flex;
+        justify-content: center; /* Horizontally centers the content */
+        align-items: center;    /* Vertically centers the content */
+        height: 5vh;           /* Optionally set a height to center vertically within the viewport */
+    }
+  
 
     .separator {
             font-size: 20px;
