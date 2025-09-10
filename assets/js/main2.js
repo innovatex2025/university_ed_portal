@@ -34,9 +34,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Update the countdown every second
-    const countdownInterval = setInterval(updateCountdown,200   );
+    const countdownInterval = setInterval(updateCountdown,50 );
 
     // Initial call to set the countdown immediately upon page load
     updateCountdown();
 });
    
+
