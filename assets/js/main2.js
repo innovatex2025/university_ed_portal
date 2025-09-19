@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let distance = targetDate - now;
 
     if (distance <= 0) {
-      clearInterval(countdownInterval);
+     // clearInterval(countdownInterval);
      // countdownElement.innerHTML = "<p> </p>";
 
       // Change the button text and link when the countdown ends
@@ -42,3 +42,4 @@ document.addEventListener("DOMContentLoaded", function () {
   updateCountdown(); // First update instantly
   const countdownInterval = setInterval(updateCountdown, 1000);
 });
+
